@@ -13,6 +13,7 @@ public class Self {
 	
 	//eclipse
 
+	//github
 	
 	public Self(WebDriver driver) {
 		PageFactory.initElements(driver, this);
