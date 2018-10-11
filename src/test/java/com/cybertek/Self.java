@@ -9,14 +9,11 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Self {
 	
-<<<<<<< HEAD
 	
-// degisiklik eclipsten geliyor gelmekte olan
-=======
+	// degisiklik eclipsten geliyor gelmekte olan
 
 	//degisiklik githubtan
 
->>>>>>> 0994250a52a0259f2ff15de60bb40509dd8f436d
 	
 	public Self(WebDriver driver) {
 		PageFactory.initElements(driver, this);
