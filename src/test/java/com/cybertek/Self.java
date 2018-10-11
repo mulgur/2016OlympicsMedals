@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Self {
 	
-	
+	//degistirdim eclipseten
 
 	
 	public Self(WebDriver driver) {
