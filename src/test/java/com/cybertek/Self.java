@@ -9,8 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Self {
 	
-	//degisiklik
-	//bir degisiklik daha from eclipse
+	
 
 	
 	public Self(WebDriver driver) {
