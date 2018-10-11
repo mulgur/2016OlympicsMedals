@@ -16,15 +16,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Olympics {
 
-	//heyyy yoooo
-
-	//keep mine
-
-	
-	//keep it to yourself
-	
-	//lets add a comment
-	//another comment
 
 	WebDriver driver;
 
@@ -240,8 +231,7 @@ public class Olympics {
 			if (maxS < silvers.get(i)) {
 				maxS = silvers.get(i);
 				mostSilver = driver.findElement(
-						By.xpath("//table[@class='wikitable sortable plainrowheaders jquery-tablesorter']/tbody/tr["
-								+ (i + 1) + "]/th/a"))
+						By.xpath("//table[@class='wikitable sortable plainrowheaders jquery-tablesorter']/tbody/tr["+ (i + 1) + "]/th/a"))
 						.getText();
 
 			}
@@ -254,8 +244,7 @@ public class Olympics {
 		List<Integer> bronzes = new ArrayList<Integer>();
 		for (int i = 1; i <= 10; i++) {
 			bronzes.add(Integer.parseInt(driver.findElement(
-					By.xpath("//table[@class='wikitable sortable plainrowheaders jquery-tablesorter']/tbody/tr[" + i
-							+ "]/td[4]"))
+					By.xpath("//table[@class='wikitable sortable plainrowheaders jquery-tablesorter']/tbody/tr[" + i+ "]/td[4]"))
 					.getText()));
 		}
 
