@@ -11,7 +11,6 @@ public class Self {
 	
 
 	//degisiklik githubtan
->>>>>>> f229e3970f0c41596db686c5ffd31169180388b0
 
 	
 	public Self(WebDriver driver) {
