@@ -24,6 +24,8 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SelfTest {
+	
+	//edit from github
 
 	WebDriver driver;
 	Map<String, Integer> gold;
