@@ -9,8 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Self {
 
-	//local eclipse
-	//github
 	
 	public Self(WebDriver driver) {
 		PageFactory.initElements(driver, this);
