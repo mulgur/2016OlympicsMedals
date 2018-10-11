@@ -8,9 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Self {
-	//olur oyle
-	
-	//hello world
+	//github
 	
 	public Self(WebDriver driver) {
 		PageFactory.initElements(driver, this);
