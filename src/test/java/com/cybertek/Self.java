@@ -8,9 +8,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Self {
+<<<<<<< HEAD
 
 	
 	//eclipse
+
 	
 	public Self(WebDriver driver) {
 		PageFactory.initElements(driver, this);
