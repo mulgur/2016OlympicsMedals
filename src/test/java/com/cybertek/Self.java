@@ -9,10 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Self {
 	
-
-	//degisiklik githubtan
->>>>>>> f229e3970f0c41596db686c5ffd31169180388b0
-
+	
+// degisiklik eclipsten geliyor gelmekte olan
 	
 	public Self(WebDriver driver) {
 		PageFactory.initElements(driver, this);
